@@ -414,6 +414,8 @@ nav img{
     cursor: pointer;
     display: flex;
     transition: 0.5s;
+	box-sizing: border-box;
+
     }
 
 .test-col:hover{
