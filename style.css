@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
+    /* position: fixed; */
 }
 
 nav img{
@@ -169,7 +170,7 @@ nav img{
         flex-direction: column;
         background-color: #fff;
         width: 100%;
-        height: 70vh;
+        max-height: 80vh;
         transition: 0.8s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -180,7 +181,7 @@ nav img{
         }
 
     .nav-menu li {
-        padding: 40px 0;
+        padding: 1.5em 0;
     }
     
     .nav-menu.active {
@@ -405,18 +406,19 @@ nav img{
 .test-col{
     flex-basis: 30%;
     border-radius: 10px;
-    margin: 20px 5px;
+    margin: 20px;
     text-align: left;
-    padding: 25px;
+    padding: 25px 15px;
     background: #ff4444;
     width: 100%;
     color: white;
     cursor: pointer;
     display: flex;
     transition: 0.5s;
-	box-sizing: border-box;
-
+    box-sizing: border-box;
     }
+
+
 
 .test-col:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0.2);
